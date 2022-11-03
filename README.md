@@ -20,6 +20,7 @@ Here is some [documentation on calling the OpenAI API](https://beta.openai.com/d
 
 #### GPT prompt and parameters
 The GPT prompt for chatting with the NPC named Admiral will be something like this:
+
 ''The following is a conversation with Admiral Grace Hopper"
 
 The GPT parameters will include something like this:

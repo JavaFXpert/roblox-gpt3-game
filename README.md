@@ -1,6 +1,6 @@
 # roblox-gpt3-game
 ## Description
-Create a simple Roblox game that demonstrate some capabiliies of GPT (GPT-3 now, and GPT-4 when it is available).
+Create a simple Roblox game that demonstrate some capabiliies of GPT (GPT-3 now, and GPT-4 when available).
 
 ## Requirements
 Game consists of
@@ -54,34 +54,34 @@ The GPT prompt for chatting with the NPC named Stacker will be something like th
 Command: Stack the blocks in their color's alphabetical order
 
 Response: 
-Get the blue block
-Stack the blue block
-Get the green block
-Stack the green block
-Get the orange block
-Stack the orange block
-Get the purple block
-Stack the purple block
-Get the red block
-Stack the red block
-Get the yellow block
-Stack the yellow block
+- Get the blue block
+- Stack the blue block
+- Get the green block
+- Stack the green block
+- Get the orange block
+- Stack the orange block
+- Get the purple block
+- Stack the purple block
+- Get the red block
+- Stack the red block
+- Get the yellow block
+- Stack the yellow block
 
 Command: Put the blocks away
 
 Response: 
-Remove the top block from the base
-Place the block on the yellow pad
-Remove the top block from the base
-Place the block on the purple pad
-Remove the top block from the base
-Place the block on the orange pad
-Remove the top block from the base
-Place the block on the red pad
-Remove the top block from the base
-Place the block on the green pad
-Remove the top block from the base
-Place the block on the blue pad"
+- Remove the top block from the base
+- Place the block on the yellow pad
+- Remove the top block from the base
+- Place the block on the purple pad
+- Remove the top block from the base
+- Place the block on the orange pad
+- Remove the top block from the base
+- Place the block on the red pad
+- Remove the top block from the base
+- Place the block on the green pad
+- Remove the top block from the base
+- Place the block on the blue pad"
 
 The GPT-3 parameters will include something like this:
 - Temperature: 0

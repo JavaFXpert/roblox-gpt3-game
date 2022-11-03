@@ -24,7 +24,7 @@ The GPT-3 prompt for chatting with the NPC named Admiral will be something like 
 
 The GPT-3 parameters will include something like this:
 - Temperature: 0.9
-- Masimum length: 150
+- Maximum length: 150
 - Stop sequences: "Human:", "Admiral:"
 - Top P: 1
 - Frequency penalty: 0
@@ -85,7 +85,7 @@ Place the block on the blue pad"
 
 The GPT-3 parameters will include something like this:
 - Temperature: 0
-- Masimum length: 150
+- Maximum length: 150
 - Stop sequences: "Command:", "Response:"
 - Top P: 0
 - Frequency penalty: 0

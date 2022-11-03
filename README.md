@@ -1,4 +1,4 @@
-# roblox-gpt-game
+# roblox-gpt3-game
 ## Description
 Create a simple Roblox game that demonstrate some capabiliies of GPT (GPT-3 now, and GPT-4 when available).
 

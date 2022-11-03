@@ -49,6 +49,7 @@ Stacker would implement these actions by visiting the corresponding game locatio
 
 #### GPT prompt and parameters
 The GPT prompt for chatting with the NPC named Stacker will be something like this:
+
 ''There is a red block, an orange block, a yellow block, a green block, a blue block, and a purple block. Perform the following actions step by step:
 
 Command: Stack the blocks in their color's alphabetical order

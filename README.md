@@ -1,6 +1,6 @@
-# roblox-gpt3-game
+# roblox-gpt-game
 ## Description
-Create a simple Roblox game that demonstrate some capabiliies of GPT-3
+Create a simple Roblox game that demonstrate some capabiliies of GPT (GPT-3 now, and GPT-4 when available).
 
 ## Requirements
 Game consists of
@@ -14,15 +14,15 @@ Game consists of
 The player may walk up to either of the NPCs and chat with them as follows:
 
 ### Chatting with the NPC named Admiral
-When chatting with the NPC named Admiral, the NPC will respond as if she were Admiral Grace Hopper. For example, if the Player asks "When were you born", the Admiral would respond with something like "I was born on December 9, 1906." This will be implemented with a call to an OpenAI GPT-3 model that includes the Player's question, receiving and displaying the response in the chat window.
+When chatting with the NPC named Admiral, the NPC will respond as if she were Admiral Grace Hopper. For example, if the Player asks "When were you born", the Admiral would respond with something like "I was born on December 9, 1906." This will be implemented with a call to an OpenAI GPT model that includes the Player's question, receiving and displaying the response in the chat window.
 
 Here is some [documentation on calling the OpenAI API](https://beta.openai.com/docs/api-reference/introduction)
 
-#### GPT-3 prompt and parameters
-The GPT-3 prompt for chatting with the NPC named Admiral will be something like this:
+#### GPT prompt and parameters
+The GPT prompt for chatting with the NPC named Admiral will be something like this:
 ''The following is a conversation with Admiral Grace Hopper"
 
-The GPT-3 parameters will include something like this:
+The GPT parameters will include something like this:
 - Temperature: 0.9
 - Maximum length: 150
 - Stop sequences: "Human:", "Admiral:"
@@ -39,7 +39,7 @@ When chatting with the NPC named Stacker, the Player gives instructions to Stack
 - Put the blocks away
 - Stack the blocks whose colors appear on the Flag of Ukraine
 
-The instruction will be sent to an OpenAI GPT-3 model, which will respond with a series of actions for Stacker to perform. For example, an instruction to "Stack the blocks whose colors appear on the Flag of Ukraine" would result in the follow actions to be returned and given to Stacker:
+The instruction will be sent to an OpenAI GPT model, which will respond with a series of actions for Stacker to perform. For example, an instruction to "Stack the blocks whose colors appear on the Flag of Ukraine" would result in the follow actions to be returned and given to Stacker:
 - Get the blue block
 - Stack the blue block
 - Get the yellow block
@@ -47,8 +47,8 @@ The instruction will be sent to an OpenAI GPT-3 model, which will respond with a
 
 Stacker would implement these actions by visiting the corresponding game locations and picking/carrying/stacking blocks.
 
-#### GPT-3 prompt and parameters
-The GPT-3 prompt for chatting with the NPC named Stacker will be something like this:
+#### GPT prompt and parameters
+The GPT prompt for chatting with the NPC named Stacker will be something like this:
 ''There is a red block, an orange block, a yellow block, a green block, a blue block, and a purple block. Perform the following actions step by step:
 
 Command: Stack the blocks in their color's alphabetical order

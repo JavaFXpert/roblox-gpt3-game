@@ -31,7 +31,7 @@ The GPT parameters will include something like this:
 - Presence penalty: 0.6
 - Best of: 1
 - Inject start text: "↵Admiral"
-- Inject restart text: "↵\Human"
+- Inject restart text: "↵Human"
 
 ### Chatting with the NPC named Stacker
 When chatting with the NPC named Stacker, the Player gives instructions to Stacker such as the following:

@@ -39,7 +39,7 @@ When chatting with the NPC named Stacker, the Player gives instructions to Stack
 - Put the blocks away
 - Stack the blocks whose colors appear on the Flag of Ukraine
 
-The instruction will be sent to an OpenAI GPT model, which will respond with a series of actions for Stacker to perform. For example, an instruction to "Stack the blocks whose colors appear on the Flag of Ukraine" would result in the follow actions to be returned and given to Stacker:
+The instruction will be sent to an OpenAI GPT model, which will respond with a series of actions for Stacker to perform. For example, an instruction to "Stack the blocks whose colors appear on the Flag of Ukraine" would result in the following actions to be returned and given to Stacker:
 - Get the blue block
 - Stack the blue block
 - Get the yellow block
